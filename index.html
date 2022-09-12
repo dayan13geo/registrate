@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="viewport" content="width=device-width, initial-scale">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <style>
+        body{ 
+            background: #ffe259;
+            background: linear-gradient(to right, #ffa751,#ffe259);
+        }
+        .bg{ 
+            background-image: url(img/1200x0.jpg);
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container w-75 bg-warning my-5 rounded shadow">
+        <div class="row aling-items-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">               
+            </div>
+                <div class="col bg-white p-5 rounded-end">
+                    <div class="text-end">
+                        <img src="img/logotipo-restaurante_23-2148558726.jpg" width="48" alt="">
+                    </div>
+                <h2 class="fw-bold text-center py-5">Registrate</h2>
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="nombre" class="form-label">Nombre completo</label>
+                        <input type="nombre" class="form-control" name="nombre">
+                    </div>
+                    <div class="mb-4">
+                    <label for="email" class="form-label">Correo electronico</label>
+                    <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-4">
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" class="form-control" name="password">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="for-check-label">Acepto Condiciones de uso Y Politica de privacidad</label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success">Registrate</button>
+                    </div>
+                    <div class="my-3">
+                         <span>¿Ya tienes una cuenta?<a href="#">Iniciar Seccion</a></span>
+                    </div>
+                    </form>
+
+                    <div class="cont w-100 my-5">
+                        <div class="row text-center">
+                            <div class="col-12">Registrate</div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary w-100 my-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-2 d-none d-md-block">
+                                            <img src="img/fb_icon_325x325.jpg"  width="30" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-10 text-center ">
+                                            Facebook
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="col">
+                                <button class="btn btn-outline-danger w-100 my-1">
+                                    <div class="row align-items-center">
+                                        <div class="col-2 d-none d-md-block">
+                                            <img src="img/ggogle.jpg"  width="30" alt="">
+                                        </div>
+                                        <div class="col-12 col-md-10 text-center ">
+                                            GOOGLE
+                                        </div>
+                                    </div>
+                                </button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
